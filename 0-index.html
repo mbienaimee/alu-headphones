@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Headphones-Company</title>
+    <link rel="stylesheet" href="0-styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo"><img src="images/logo_headphones.png" alt="logo"></div>
+        <div class="nav-links ">
+            <ul>
+                <li><a href="#">what we do</a></li>
+                <li><a href="#">our results</a></li>
+                <li><a href="#">contact us</a></li>
+            </ul>
+        </div>
+        <img src="images/menu.png" alt="menu hamburger" class="menu-hamburger">
+    </nav>
+    <header class="hero">
+        <img src="images/headphones_hero_1.jpg" alt="headphones">
+    </header>
+    <section class="content-over-image">
+        <div class="intro-text">
+            <h2>Welcome to Our Headphones Company</h2>
+            <p>Explore our premium range of headphones designed for the ultimate audio experience.</p>
+            <button class="call-to-action">Shop Now</button>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, sint. Tempora ipsam id officia molestias labore quam perferendis quisquam illo laboriosam! Porro alias eius dicta non natus temporibus fugiat perferendis.</p>
+        </div>
+    </section>
+    <section>
+        <div class="contact-form">
+
+        </div>
+    </section>
+    <!-- <footer></footer> --> 
+    <script>
+        const menuHamburger = document.querySelector('.menu-hamburger');
+        const navLinks = document.querySelector('.nav-links');
+
+        menuHamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('mobile-menu');
+        })
+    </script>
+</body>
+</html>
